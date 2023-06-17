@@ -2,3 +2,4 @@ legado/*.*
 .vscode/*.*
 *.pyc
 recursos/modelo_validacao.xlsx
+*.ipynb

@@ -22,7 +22,7 @@ def show():
         st.session_state['dados'] = False
 
     if 'polygon' not in st.session_state:
-        bairros = r'recursos\bairros\bairros_rj.shp'
+        bairros = r'./recursos/bairros/bairros_rj.shp'
         gdf_bairros = gpd.read_file(bairros).sort_values(
             by='nome', ascending=True)
         polygon = gdf_bairros['geometry'][0]
