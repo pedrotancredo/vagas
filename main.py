@@ -65,7 +65,7 @@ lootie_list = ['https://assets1.lottiefiles.com/packages/lf20_nonpuabv.json',
 
 lootie = load_lottieurl(lootie_list[4])
 st_lottie(lootie, key='intro')
-st.markdown("# Otimização da alocação estudantil")
+st.markdown("# Otimização da Alocação Estudantil")
 st.markdown("Modelo para otimização de alocação de alunos em escolas com base \
                 na minimização da distância média entre aluno e escola.")
 
