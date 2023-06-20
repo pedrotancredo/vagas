@@ -5,7 +5,7 @@ def show():
 
     st.markdown("## Introdução")
     st.markdown("""<div style="text-align: justify;"><p>A otimização por algoritmos
-    genéticos é uma abordagem eficiente para resolver problemas complexos e
+    genéticos é uma tecnica de abordagem eficiente para resolver problemas complexos e
     encontrar soluções ótimas. Inspirada no processo evolutivo natural, essa técnica
     utiliza conceitos como seleção, reprodução e mutação para buscar soluções cada
     vez melhores ao longo de várias gerações. No início, uma população de soluções
