@@ -55,7 +55,7 @@ def show():
     <li>O <b>número de alunos</b> é o parâmetro que define a quantidade de estudantes
     a serem alocados. Esse valor determina o tamanho do vetor de alunos a ser gerado,
     onde cada componente representa um aluno específico.</li>
-    <li>As <b>vagas por escola</b> é um parâmetro que define a capacidade máxima
+    <li>O parâmetro <b>vagas por escola</b> define a capacidade máxima
     de cada instituição de ensino. Essa informação é utilizada para definir o vetor
     de restrições de vagas, em que cada componente indica o número máximo de alunos
     que podem ser alocados em determinada escola.</li>
