@@ -91,9 +91,10 @@ def show():
 
     st.latex(r'''d_{ij} = \text{distância}(a_i, e_j)''')
 
-    st.markdown('''<div style="text-align: justify;"><p>Utilizaremos também, uma matriz de distâncias obtida através do uso da função
-    <b>distância</b> onde cada elemento da matriz representa o cálculo da
-    distância entre um aluno específico e uma escola específica. Conforme:</p></div>''',
+    st.markdown('''<div style="text-align: justify;"><p>Utilizaremos também, uma
+    matriz de distâncias obtida através do uso da função <b>distância</b> onde
+    cada elemento da matriz representa o cálculo da distância entre um aluno específico
+    e uma escola específica. Conforme:</p></div>''',
                 unsafe_allow_html=True)
 
     st.latex(r'''\mathbf{D} = \begin{bmatrix}
